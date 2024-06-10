@@ -16,37 +16,37 @@ public class Controller {
         while (true) {
             int choice = getUserChoice();
             switch (choice) {
-                case 1:
+                case 0:
                     add();
                     break;
-                case 2:
+                case 1:
                     remove();
                     break;
-                case 3:
+                case 2:
                     RemoverTodasOcorrencias();
                     break;
-                case 4:
+                case 3:
                     listar();
                     break;
-                case 5:
+                case 4:
                     buscar();
                     break;
-                case 6:
+                case 5:
                     maior();
                     break;
-                case 7:
+                case 6:
                     menor();
                     break;
-                case 8:
+                case 7:
                     media();
                     break;
-                case 9:
+                case 8:
                     Tamanho();
                     break;
-                case 10:
+                case 9:
                     AumentarCapacidade();
                     break;
-                case 0:
+                case 10:
                     System.out.println("Fechando Sistema...");
                     return;
                 default:
@@ -59,17 +59,17 @@ public class Controller {
         while (true) {
             try {
                 System.out.println("\nEscolha uma alternativa:");
-                System.out.println("1 - Adicionar");
-                System.out.println("2 - Remover");
-                System.out.println("3 - Remover todas as ocorrências");
-                System.out.println("4 - Listar");
-                System.out.println("5 - Buscar");
-                System.out.println("6 - Maior");
-                System.out.println("7 - Menor");
-                System.out.println("8 - Média");
-                System.out.println("9 - Quantidade");
-                System.out.println("10 - Aumentar capacidade");
-                System.out.println("0 - Sair");
+                System.out.println("0 - Adicionar");
+                System.out.println("1 - Remover");
+                System.out.println("2 - Remover todas as ocorrências");
+                System.out.println("3 - Listar");
+                System.out.println("4 - Buscar");
+                System.out.println("5 - Maior");
+                System.out.println("6 - Menor");
+                System.out.println("7 - Média");
+                System.out.println("8 - Quantidade");
+                System.out.println("9 - Aumentar capacidade");
+                System.out.println("10 - Sair");
                 System.out.print("Selecione uma alternativa: ");
                 int choice = scanner.nextInt();
                 if (choice >= 0 && choice <= 10) {
