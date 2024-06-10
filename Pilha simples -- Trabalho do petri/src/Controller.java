@@ -59,17 +59,17 @@ public class Controller {
         while (true) {
             try {
                 System.out.println("\nEscolha uma alternativa:");
-                System.out.println("1 - Adicionar");
-                System.out.println("2 - Remover");
-                System.out.println("3 - Remover todas as ocorrências");
-                System.out.println("4 - Listar");
-                System.out.println("5 - Buscar");
-                System.out.println("6 - Maior");
-                System.out.println("7 - Menor");
-                System.out.println("8 - Média");
-                System.out.println("9 - Quantidade");
-                System.out.println("10 - Aumentar capacidade");
-                System.out.println("0 - Sair");
+                System.out.println("0 - Adicionar");
+                System.out.println("1 - Remover");
+                System.out.println("2 - Remover todas as ocorrências");
+                System.out.println("3 - Listar");
+                System.out.println("4 - Buscar");
+                System.out.println("5 - Maior");
+                System.out.println("6 - Menor");
+                System.out.println("7 - Média");
+                System.out.println("8 - Quantidade");
+                System.out.println("9 - Aumentar capacidade");
+                System.out.println("10 - Sair");
                 System.out.print("Selecione uma alternativa: ");
                 int choice = scanner.nextInt();
                 if (choice >= 0 && choice <= 10) {
